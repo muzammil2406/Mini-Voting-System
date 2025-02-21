@@ -21,7 +21,7 @@ int numberOfCandidates; //Total number of candidates standing for election
 char studentVotes[200]; //to store information of votes given by each student
 //----------------------------------------------------------------
 
-//To extract year from userID -- For example, userID:2018btecs00064 year:2023 
+//To extract year from userID -- For example, userID:2018btecs00064 year:20218
 int extractYear(char userID[15])
 {
     int year=0;
